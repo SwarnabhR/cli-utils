@@ -13,6 +13,7 @@ add_executable(cli-utils
     src/clear.cpp
     src/print_help.cpp
     src/grep.cpp 
+    src/cat.cpp
 )
 
 # Include directories

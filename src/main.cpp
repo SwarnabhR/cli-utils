@@ -3,6 +3,7 @@
 #include "clear.h"
 #include "print_help.h"
 #include "grep.h"
+#include "cat.h"
 void print_version()
 {
     std::cout << "CLI Utilities Terminal, version 1.0" << std::endl;
@@ -53,6 +54,12 @@ int main()
                 std::string filename = input.substr(first_space + 1);
                 grep(pattern, filename);
             }
+        }
+        else if (input.substr(0, 4) == "cat ")
+        {
+            // Extract the filename
+            std::string filename = input.substr(4);
+            cat(filename);
         }
         else
         {
