@@ -1,4 +1,4 @@
-# Project Title
+# CLI Utility
 
 ## Table of Contents
 
