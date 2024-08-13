@@ -1,1 +1,26 @@
+# Ignore build directory
 /build
+
+# Ignore compiled binary files
+*.exe
+*.out
+*.o
+
+
+# Ignore CMake generated files
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake 
+/Makefile
+
+# Ignore editor files
+.vscode/
+.idea/
+*.swp
+*.sublime-project
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS-specific files
+Thumbs.db # for windows
+.DS_Store # for macOS
