@@ -1,20 +1,6 @@
 #include <iostream>
 #include <string>
-#ifdef _WIND32
-#include <windows.h>
-#else
-#include <cstdlib>
-#endif
-
-void clear_screen()
-{
-#ifdef _WIN32
-    system("cls");
-#else
-    system("clear");
-#endif
-}
-
+#include "clear.h"
 void print_help()
 {
     std::cout << "Available commands:\n";
