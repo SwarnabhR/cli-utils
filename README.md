@@ -52,3 +52,27 @@ End with an example of getting some data out of the system or using it for a lit
 
 Add notes about how to use the system.
 --->
+
+## Installation
+
+```bash
+  git clone https://github.com/SwarnabhR/cli-utils.git
+  cd cli-utils
+```
+
+Open VS Code or any text editor.
+
+Create a build folder
+
+```bash
+  mkdir build
+  cd build
+```
+
+Build
+
+```bash
+  cmake ..
+  make
+  ./cli-utils
+```

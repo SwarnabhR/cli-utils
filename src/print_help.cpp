@@ -8,5 +8,6 @@ void print_help()
     std::cout << "    version - Show the program version\n";
     std::cout << "    exit    - Exit the terminal\n";
     std::cout << "    clear   - Clear the screen\n";
-    std::cout << "    grep    - Search for specific patterns within files";
+    std::cout << "    grep <pattern> <filename>   - Search for specific patterns within files\n";
+    std::cout << "    cat <filename>  - Displays the content of the file\n";
 }
