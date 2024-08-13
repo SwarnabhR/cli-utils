@@ -1,15 +1,7 @@
 #include <iostream>
 #include <string>
 #include "clear.h"
-void print_help()
-{
-    std::cout << "Available commands:\n";
-    std::cout << "    help    - Show this help message\n";
-    std::cout << "    version - Show the program version\n";
-    std::cout << "    exit    - Exit the terminal\n";
-    std::cout << "    clear     - Clear the screen\n";
-}
-
+#include "print_help.h"
 void print_version()
 {
     std::cout << "CLI Utilities Terminal, version 1.0" << std::endl;

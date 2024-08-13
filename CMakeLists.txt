@@ -11,6 +11,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 add_executable(cli-utils 
     src/main.cpp
     src/clear.cpp
+    src/print_help.cpp
 )
 
 # Include directories
